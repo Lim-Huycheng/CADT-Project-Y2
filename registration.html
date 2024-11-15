@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box{
+           background: url(video/pic.webp);
+           width: 100%;
+           background-repeat: no-repeat;
+           background-size: cover;
+           
+        }
+        .new{
+            border: 2px solid;
+        }
+    </style>
+       
+    
+    
+</head>
+<body class="box">
+    
+    <form style="padding-left: 320px; padding-right: 320px; padding-top: 50px;  ">
+        <div style="background-color: rgb(183, 140, 215); border-radius: 20px; font-size: 20px; height: 680px;" >
+                <div style="text-align: center; " class="pt-5" >
+                     <h1 >Registration Form </h1> 
+                 </div> 
+                <div style="padding-left: 300px;" class="pt-4" >
+                    <div>
+                        <label for="exampleFormControlInput1" class="form-label">First name</label>
+                        <input  class="form-control new" type="text" placeholder="First name" aria-label="First name example " style=" width: 55%; height: 50px;">
+                    </div>
+                    <div class="pt-4" >
+                        <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                        <input class="form-control new " type="text" placeholder="Last name" aria-label="Last name example " style=" width: 55%; height: 50px;">
+                    </div>
+                    <div class="pt-4" style="width: 55%;">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control new" id="exampleFormControlInput1" placeholder="name@example.com" style="height: 50px;" >
+  
+                    </div>
+                    <div class="pt-4" >
+                        <label for="exampleFormControlInput1" class="form-label">Password</label>
+                        <input class="form-control new" type="password" placeholder="Password" aria-label="Password example " style=" width: 55%; height: 50px;">
+                    </div>
+                </div>
+                <div class="pt-5" style="padding-left: 55%;"> 
+                <button class="btn btn-secondary" style="height: 50px; width: 100px;">Register</button>
+                </div>
+        </div>
+    </form>
+</body>
+</html>
